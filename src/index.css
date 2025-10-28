@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  color: #1d1d1d;
+  max-width: 100rem;
+  margin-inline: auto;
+}
+
+.hover-link {
+  @apply relative after:absolute after:left-0 after:-bottom-0.5 after:w-0 after:h-[0.185rem] after:bg-colors-purple after:transition-all
+    after:scale-x-0 after:origin-left after:duration-500 hover:after:scale-x-100 hover:after:w-full;
+}
+
+.button {
+  @apply px-8 py-1.5 bg-colors-purple rounded-full text-sm md:text-base lg:text-lg font-normal text-colors-white font-jost hover:bg-colors-darkPurple
+  transition-colors duration-300;
+}
