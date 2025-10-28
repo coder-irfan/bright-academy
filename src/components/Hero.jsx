@@ -3,7 +3,7 @@ import React from "react";
 function Hero() {
   return (
     <>
-      <section className="pt-28 pb-16 md:pt-36 md:pb-24 lg:pt-40 lg:pb-24 xl:pt-48 xl:pb-32 px-4 sm:px-6 md:px-8 lg:px-16 max-w-[85rem] 2xl:max-w-[88rem] mx-auto">
+      <section id="home" className="pt-28 pb-16 md:pt-36 md:pb-24 lg:pt-40 lg:pb-24 xl:pt-48 xl:pb-32 px-4 sm:px-6 md:px-8 lg:px-16 max-w-[85rem] 2xl:max-w-[88rem] mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12 sm:gap-14">
           <div className="max-w-xl lg:max-w-xl space-y-3 md:space-y-4 text-center md:text-left">
             <h1 className="text-h1 font-semibold text-colors-midnight leading-tight">
